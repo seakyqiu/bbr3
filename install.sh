@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# 限制脚本仅支持基于 Debian/Ubuntu 的系统（即支持 apt-get 的系统）
+# 限制脚本仅支持基于 Debian/Ubuntu 的系统（即支持 apt-get 的系统）测试
 if ! command -v apt-get &> /dev/null; then
     echo -e "\033[31m此脚本仅支持基于 Debian/Ubuntu 的系统，请在支持 apt-get 的系统上运行！\033[0m"
     exit 1
